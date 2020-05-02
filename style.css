@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(51, 63, 97);
+}
+
+h1{
+    color: gainsboro;
+}
+
+p{
+    color: gainsboro;
+}
+
+#container {
+    text-align: center;
+    vertical-align: middle;
+}
