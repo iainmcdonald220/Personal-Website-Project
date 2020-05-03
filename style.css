@@ -22,6 +22,12 @@ h1{
     font-size: 60px;
 }
 
+h2{
+    color: gainsboro;
+    font-size: 30px;
+}
+
 p{
     color: gainsboro;
+    font-weight: bold;
 }
