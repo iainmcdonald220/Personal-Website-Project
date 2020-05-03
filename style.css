@@ -2,15 +2,26 @@ body{
     background-color:rgb(51, 63, 97);
 }
 
+.container {
+    
+    position: relative;
+  }
+
+.center{
+    margin: 50vh;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
 h1{
     color: gainsboro;
+    font-weight: bold;
+    font-size: 60px;
 }
 
 p{
     color: gainsboro;
-}
-
-#container {
-    text-align: center;
-    vertical-align: middle;
 }
