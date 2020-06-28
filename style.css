@@ -1,5 +1,10 @@
+/*border color: #bdc3c7
+date color: #3498db
+h2 color #2c3e50*/
+
 body{
-    background-color:rgb(51, 63, 97);
+    background-color:#bdc3c7;
+    font-family: Source Sans Pro;
 }
 
 .container {
@@ -7,23 +12,25 @@ body{
   }
 
 .center{
-    margin: 30vh;
+    margin: 10vh;
 }
 
 
 h1{
-    color: gainsboro;
+    text-align: center;
+    color: #2c3e50;
     font-weight: bold;
     font-size: 60px;
 }
 
 h2{
-    color: gainsboro;
+    color: #2c3e50;
     font-size: 30px;
+    
 }
 
 p{
-    color: gainsboro;
+    color: #2c3e50;
     font-weight: bold;
 }
 /*i know this will affect every image not just this one**/
@@ -31,4 +38,10 @@ p{
 .image-size{
     width: 75px;
     height: 75px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #2c3e50, rgba(255, 255, 255, 0));
 }
