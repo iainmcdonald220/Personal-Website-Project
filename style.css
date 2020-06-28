@@ -45,3 +45,23 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #2c3e50, rgba(255, 255, 255, 0));
 }
+
+a {
+    font-weight: bold;
+    color: #526d88;
+}
+
+a:link {
+color: #526d88;
+text-decoration: none;
+}
+
+a:visited {
+    color: #526d88;
+    text-decoration: none;
+    }
+
+a:hover {
+    color: #3498db;
+    text-decoration: none;
+}
